@@ -12,7 +12,7 @@ const Recipe = ({label,image,url,ingredients}) =>{
                 ))}
             </ul>
             
-     <button className={style.url}><a className={style.link} href={url} target="_blank" rel="noopener noreferrer">
+           <button className={style.url}><a className={style.link} href={url} target="_blank" rel="noopener noreferrer">
         Recipe Details
       </a></button>
             <img className={style.image} src={image} alt="label"/>
